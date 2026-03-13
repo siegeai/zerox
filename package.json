@@ -7,8 +7,7 @@
     "build": "tsc -p node-zerox/tsconfig.json",
     "postinstall": "node node-zerox/scripts/install-dependencies.js",
     "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "node preinstall.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "tylermaran",
   "license": "MIT",
